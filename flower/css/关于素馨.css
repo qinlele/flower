@@ -1,0 +1,201 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,input,textarea{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font:16px 'Microsoft YaHei UI','sans-serif';
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/*默认样式*/
+/*nav*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+}
+.banner{
+    width: 100%;
+    height: 720px;
+    background: #cccccc;
+}
+.navContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top:14px;
+}
+.navlist{
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+/*a行内元素没有宽高属性*/
+.logo a{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navlist li a{
+    display: block;
+    width: 79px;
+    height:86px;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    float: left;
+    transition:.5s ;
+}
+.navlist li a:hover{
+    color: #16b0bc;
+}
+.first{
+    color: #16b0bc;
+}
+/*
+flower第三部分
+*/
+.flower{
+    width: 100%;
+    height: 750px;
+    background: #f5f5f5;
+}
+.flowercontent{
+    width: 1170px;
+    height: 610px;
+    margin: 0 auto;
+    padding: 70px 0;
+    /*background: #16b0bc;*/
+}
+.flowercontent h1{
+    text-align: center;
+    font-weight: 200;
+}
+.flowerlist{
+    width: 100%;
+    height: 560px;
+}
+.flowerlist .floweritem{
+    width: 570px;
+    height: 110px;
+    margin-top: 30px;
+    margin-right: 30px;
+    float: left;
+    /*background: #333333;*/
+}
+.flowerlist .floweritem:nth-of-type(even){
+     margin-right: 0;
+ }
+/*偶数evev奇数odd*/
+.floweritem .itemthumb{
+    width: 160px;
+    height: 96px;
+    /*background: red;*/
+    float: left;
+}
+.floweritem .iteminfo{
+    width: 390px;
+    height: 100%;
+    float: right;
+    /*background: white;*/
+    font-size: 14px;
+    color: #76838f;
+}
+.itemthumb a ,.itemthumb a img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.iteminfo h2 a{
+    font-weight: 400;
+    font-size: 18px;
+    transition: all ease .5s;
+}
+.iteminfo h2 a:hover{
+    color: #16b0bc;
+    text-decoration:underline ;
+}
+.iteminfo p.infodesc{
+    padding: 2px 0;
+    text-align: left;
+    /*height:3em ;*/
+    /*overflow: hidden;*/
+}
+/*.单行文本溢出
+iteminfo h2 a{*/
+    /*overflow: hidden;  超出隐藏*/
+    /*text-overflow:ellipsis ; 超出成省略号*/
+    /*white-space: nowrap;*/
+    /*display: block;*/
+/*}*/
+/*
+.iteminfo p.infodesc::after{
+    content: '...';
+
+    position: absolute;
+    right: 0;
+    bottom:0
+}*/
+.finsh{
+    width:100% ;
+    height: 150px;
+    background:#F1F1F1;
+    text-align: center;
+}
+.finsh img{
+    margin: 12px;
+}
+a span1,span2{
+    color: #89bceb;
+}
+a:hover{
+    text-decoration: underline #89bceb;
+}
+.finsh p{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1em;
+}
+/*第二部分*/
+.lunbotu{
+    width: 100%;
+    height:auto;
+}
+.lunbotu img{
+    width: 100%;
+    height: 350px;
+}
+/*daoer*/
+.first1{
+    padding:70px 0;
+    width: 100%;
+    height:707px ;
+    /*background:#f5f5f5;*/
+    margin-top: -40px;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    margin-top: 15px;
+}
+p.second{
+    margin: 40px;
+}
+.third{
+    text-align: center;
+    margin-top: 60px;
+}

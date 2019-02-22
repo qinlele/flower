@@ -1,0 +1,217 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,input,textarea{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font:16px 'Microsoft YaHei UI','sans-serif';
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/*默认样式*/
+/*nav*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+}
+.banner{
+    width: 100%;
+    height: 720px;
+    background: #cccccc;
+}
+.navContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top:14px;
+}
+.navlist{
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+/*a行内元素没有宽高属性*/
+.logo a{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navlist li a{
+    display: block;
+    width: 79px;
+    height:86px;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    float: left;
+    transition:.5s ;
+}
+.navlist li a:hover{
+    color: #16b0bc;
+}
+.first{
+    color: #16b0bc;
+}
+.second{
+    width: 100%;
+    height:1600px;
+    padding: 50px 0px;
+    background: #f2f2f2;
+    text-align: center;
+}
+h1{
+    margin-top: 70px;
+    color:#F67A82;
+    font-weight: normal;
+}
+.second .sekuai{
+    /*background: blue;*/
+    width: 1140px;
+    height: 1400px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.sekuai .left{
+    width: 750px;
+    height: 940px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.left .group{
+    min-height: 100px;
+    width: 690px;
+}
+.left .num1{
+    width: 690px;
+    min-height: 57px;
+    height: auto;
+    /*background: #eb0903;*/
+    margin-bottom: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.num1 .content{
+    width: 642px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.num1 .content p{
+    font-size: 75%;
+}
+.num1 .infor{
+   margin-left: 25px;
+    margin-top: 10px;
+}
+.num1 .repet{
+    width: 642px;
+    min-height: 50px;
+    height: auto;
+    background: #f3f7f9;
+    margin-left: 20px;
+    border: 1px solid #cccccc;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.sekuai .right{
+    width: 360px;
+    height: 464px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.right input{
+    width: 300px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+.right .bei{
+    background:#f3f7f9 ;
+    width: 90px;
+    height: 36px;
+    position: absolute;
+    bottom: 68px;
+    right: 30px;
+    text-align: center;
+}
+.bei img{
+    width:70px ;
+    height: 26px;
+    margin-top: 5px;
+}
+.right .sub{
+    width:300px ;
+    height: 36px;
+    background: #62a8ea;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+}
+.sub a{
+    color: white;
+}
+/*.left .pic{*/
+    /*width: 160px;*/
+    /*height:auto;*/
+    /*background: black;*/
+/*}*/
+
+.second #bai{
+    width: 100%;
+    height: 20px;
+    background: white;
+    margin-top: -30px;
+}
+.finsh{
+    width:100% ;
+    height: 180px;
+    background:#F1F1F1;
+    text-align: center;
+    margin-top: -80px;
+}
+.finsh img{
+    margin: 12px;
+}
+a span1,span2{
+    color: #89bceb;
+}
+a:hover{
+    text-decoration: underline #89bceb;
+}
+.finsh p{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1em;
+}
